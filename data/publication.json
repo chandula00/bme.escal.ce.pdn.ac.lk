@@ -1,0 +1,104 @@
+[
+  {
+    "_id": "pub1",
+    "title": "DenPAR: Annotated Intra-Oral Periapical Radiographs Dataset for Machine Learning",
+    "authors": "Rasnayaka S., Leuke Bandara D., Jayasundara A., Jayasinghe R., Wimalasiri C., Rathnayake P., Wijerathne S., Ragel R., Thambawita V., Nawinne I.",
+    "venue": "Nature Scientific Data",
+    "year": "2025",
+    "volume": "12",
+    "pages": "1615",
+    "publisher": "Springer",
+    "doi": "10.1038/s41597-025-05906-9",
+    "url": "https://doi.org/10.1038/s41597-025-05906-9"
+  },
+  {
+    "_id": "pub2",
+    "title": "A Comparative Study on Generalized Automated Medical Image Segmentation for Dataset Building",
+    "authors": "Nishani Kasineshan, Vithurshini Subramanieam, Thulasiyan Yogeswaran, Sashini Liyanage, Isuri Devindi, Roshan G. Ragel, Vajira Thambawita, Isuru Nawinne",
+    "venue": "2025 5th International Conference on Advanced Research in Computing (ICARC)",
+    "year": "2025",
+    "doi": "10.1109/ICARC64760.2025.10963209",
+    "url": "https://doi.org/10.1109/ICARC64760.2025.10963209"
+  },
+  {
+    "_id": "pub3",
+    "title": "Multimodal Deep Convolutional Neural Network Pipeline for AI-Assisted Early Detection of Oral Cancer",
+    "authors": "Devindi G. A. I., Dissanayake D. M. D. R., Liyanage S. N., Francis F. B. A. H., Pavithya M. B. D., Piyarathne N. S., Hettiarachchi P. V. K. S., Rasnayaka R. M. S. G. K., Jayasinghe R. D., Ragel R. G., Nawinne I.",
+    "venue": "IEEE Access",
+    "year": "2024",
+    "volume": "12",
+    "publisher": "IEEE",
+    "doi": "10.1109/ACCESS.2024.3454338",
+    "url": "https://doi.org/10.1109/ACCESS.2024.3454338"
+  },
+  {
+    "_id": "pub4",
+    "title": "A Comprehensive Dataset of Annotated Oral Cavity Images for Diagnosis of Oral Cancer and Oral Potentially Malignant Disorders",
+    "authors": "Piyarathne N. S., Liyanage S. N., Rasnayaka R. M. S. G. K., Hettiarachchi P. V. K. S., Devindi G. A. I., Francis F. B. A. H., Dissanayake D. M. D. R., Ranasinghe R. A. N. S., Pavithya M. B. D., Nawinne I. B., Ragel R. G., Jayasinghe R. D.",
+    "venue": "Oral Oncology",
+    "year": "2024",
+    "volume": "156",
+    "pages": "106946",
+    "publisher": "Elsevier",
+    "doi": "10.1016/j.oraloncology.2024.106946",
+    "url": "https://doi.org/10.1016/j.oraloncology.2024.106946"
+  },
+  {
+    "_id": "pub5",
+    "title": "Self-Paced Brain-Computer Interface on Sensorimotor Rhythms for Controlling Virtual Objects",
+    "authors": "Athapattu A. D., Dassanayake P. S. B., Nanayakkara S. C., Liyanage S. N., Devindi G. A. I., Ragel R. G., Dissanayake T., Nawinne I.",
+    "venue": "Moratuwa Engineering Research Conference 2024 (MERCon'24)",
+    "year": "2024",
+    "publisher": "IEEE",
+    "doi": "10.1109/MERCon63886.2024.10688894",
+    "url": "https://doi.org/10.1109/MERCon63886.2024.10688894"
+  },
+  {
+    "_id": "pub6",
+    "title": "EEG Based Brain-Computer Interface for Inner Speech Classification",
+    "authors": "Dhananjaya P., Adikari I., Lakmali S., Devindi G., Liyanage S., Wickramasinghe M., Dissanayake T., Ragel R., Nawinne I.",
+    "venue": "Moratuwa Engineering Research Conference 2024 (MERCon'24)",
+    "year": "2024",
+    "publisher": "IEEE",
+    "award": "Best Paper Award",
+    "doi": "10.1109/MERCon63886.2024.10688451",
+    "url": "https://doi.org/10.1109/MERCon63886.2024.10688451"
+  },
+  {
+    "_id": "pub7",
+    "title": "Decoding Non-Motor Imagery Tasks with Non-Invasive EEG Based Brain Computer Interface: A Review",
+    "authors": "Lakmali S., Dhananjaya P., Adikari I., Devindi I., Liyanage S., Wickramasinghe M., Dissanayake T., Ragel R., Nawinne I.",
+    "venue": "Moratuwa Engineering Research Conference 2024 (MERCon'24)",
+    "year": "2024",
+    "publisher": "IEEE",
+    "doi": "10.1109/MERCon63886.2024.10688719",
+    "url": "https://doi.org/10.1109/MERCon63886.2024.10688719"
+  },
+  {
+    "_id": "pub8",
+    "title": "Using Near-Infrared Spectroscopy for Vein Visualization",
+    "authors": "KTB Weerasinghe, SC Tennakoon, KNU Kularatne, I Nawinne, R Ragel, H Jayakody",
+    "venue": "2021 10th International Conference on Information and Automation for Sustainability (ICIAfS)",
+    "year": "2021",
+    "doi": "10.1109/ICIAfS52090.2021.9606126",
+    "url": "https://doi.org/10.1109/ICIAfS52090.2021.9606126"
+  },
+  {
+    "_id": "pub9",
+    "title": "Non-contact Infant Sleep Apnea Detection",
+    "authors": "Gihan Jayatilaka, Harshana Weligampola, Suren Sritharan, Pankayaraj Pathmanathan, Roshan Ragel, Isuru Nawinne",
+    "venue": "IEEE International Conference on Industrial and Information Systems (ICIIS)",
+    "year": "2019",
+    "doi": "10.1109/ICIIS47346.2019.9063269",
+    "url": "https://doi.org/10.1109/ICIIS47346.2019.9063269"
+  },
+  {
+    "_id": "pub10",
+    "title": "An ensemble learning approach for electrocardiogram sensor based human emotion recognition",
+    "authors": "Theekshana Dissanayake, Yasitha Rajapaksha, Roshan Ragel, Isuru Nawinne",
+    "venue": "MDPI Sensors",
+    "year": "2019",
+    "doi": "10.3390/s19204495",
+    "url": "https://doi.org/10.3390/s19204495"
+  }
+]

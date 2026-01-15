@@ -1,0 +1,23 @@
+{
+  "data": [
+    {
+      "Graduate Researchers": [
+        { "eNumber": "E/19/008", "current": "TA @ UOP"},
+        { "eNumber": "E/19/063", "current": "TA @ UOP"}
+      ],
+
+      "Undergraduate Researchs":[
+      ],
+
+      "Alumni Researchers":[
+        { "eNumber": "E/17/058","current": "PhD Student @ UMD"},
+        { "eNumber": "E/17/190","current": "PhD Student @ Princeton"}
+      ],
+      "supervisors": [
+        {"email":"isurunawinne@eng.pdn.ac.lk","name":"Dr. Isuru Nawinne","profile_page":"https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne"},
+        {"email": "roshanr@eng.pdn.ac.lk","name": "Prof. Roshan G. Ragel", "profile_page":"https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel"}
+      ]    
+    }
+
+  ]
+}

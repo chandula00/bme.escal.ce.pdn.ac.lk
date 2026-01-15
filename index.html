@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/hero.css" rel="stylesheet" />
+    <link href="css/general.css" rel="stylesheet"/>
+    <link href="css/query.css" rel="stylesheet"/>
+    <link href="css/modern-biomedical.css" rel="stylesheet"/>
+    <link href="css/unique-modern.css" rel="stylesheet"/>
+    <link href="css/professional-clean.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- <style>
+      /* Medical pulse animation */
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.05); opacity: 0.8; }
+      }
+      
+      .medical-pulse {
+        animation: pulse 2s ease-in-out infinite;
+      }
+      
+      /* Heartbeat line animation */
+      @keyframes heartbeat {
+        0%, 100% { transform: scaleX(1); }
+        50% { transform: scaleX(1.1); }
+      }
+      
+      .heartbeat-line {
+        height: 3px;
+        background: linear-gradient(90deg, transparent, #87cbe4, transparent);
+        animation: heartbeat 1.5s ease-in-out infinite;
+      }
+      
+      /* Medical card with cross accent */
+      .medical-card {
+        position: relative;
+        background: white;
+        border-radius: 20px;
+        padding: 3rem;
+        box-shadow: 0 10px 40px rgba(135, 203, 228, 0.1);
+        transition: all 0.3s ease;
+        border: 2px solid #e9ecef;
+      }
+      
+      .medical-card::before {
+        content: '+';
+        position: absolute;
+        top: -15px;
+        right: 20px;
+        font-size: 3rem;
+        color: #87cbe4;
+        font-weight: bold;
+        background: white;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        box-shadow: 0 4px 15px rgba(135, 203, 228, 0.3);
+      }
+      
+      .medical-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 50px rgba(135, 203, 228, 0.2);
+        border-color: #87cbe4;
+      }
+      
+      /* Stats with medical icons */
+      .stat {
+        position: relative;
+        padding: 2rem;
+        background: linear-gradient(135deg, #f0fdf9 0%, #e9ecef 100%);
+        border-radius: 15px;
+        border-left: 4px solid #87cbe4;
+        transition: all 0.3s ease;
+      }
+      
+      .stat:hover {
+        transform: translateX(5px);
+        box-shadow: 0 10px 30px rgba(135, 203, 228, 0.15);
+      }
+      
+      /* Hero with stethoscope accent */
+      .hero-brand-name::before {
+        content: '';
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background: #87cbe4;
+        border-radius: 50%;
+        margin-right: 15px;
+        animation: pulse 2s ease-in-out infinite;
+      }
+      
+      /* Medical grid pattern background */
+      .section-about {
+        background: 
+          linear-gradient(90deg, rgba(135, 203, 228, 0.03) 1px, transparent 1px),
+          linear-gradient(rgba(135, 203, 228, 0.03) 1px, transparent 1px);
+        background-size: 50px 50px;
+      }
+      
+      /* Project cards with DNA helix accent */
+      .project-item {
+        border-radius: 20px;
+        overflow: hidden;
+        position: relative;
+        background: white;
+      }
+      
+      .project-item::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100px;
+        height: 100px;
+        background: radial-gradient(circle, rgba(135, 203, 228, 0.1) 0%, transparent 70%);
+        pointer-events: none;
+      
+      /* Enhanced medical project cards */
+      .project-item {
+        border: 2px solid #e9ecef !important;
+        box-shadow: 0 10px 30px rgba(135, 203, 228, 0.15) !important;
+      }
+      
+      .project-item:hover {
+        transform: translateY(-10px) !important;
+        box-shadow: 0 20px 50px rgba(135, 203, 228, 0.25) !important;
+        border-color: #87cbe4 !important;
+      }
+      
+      .tag {
+        background-color: #87cbe4 !important;
+        color: white !important;
+      }
+      
+      .tag:hover {
+        background-color: #5a9bd3 !important;
+      }
+      }
+    </style> -->
+    <link rel="icon" type="image/png" href="./img/Logo_BME.png" sizes="any"/>
+    <title>ESCAL BME</title>
+  </head>
+  <body>
+    <div class="landing-page">
+      <header class="header">
+        <a href="#" style="display: flex; align-items:center; gap: 0.8rem; text-decoration: none;">
+          <img src="./img/Logo_BME.png" alt="ESCAL BME Logo" class="escal" style="height:4rem;"/>
+          <img src="./img/pera_11.png" alt="ESCAL BME" class="logoName" style="height:3.5rem;"/>
+        </a>
+        <button class="btn-mobile-nav" type="button" aria-label="Toggle menu">
+          <span class="hamburger-line line1"></span>
+          <span class="hamburger-line line2"></span>
+          <span class="hamburger-line line3"></span>
+        </button>
+
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li>
+              <a class="main-nav-link" href="#about">About</a>
+            </li>
+            <li>
+              <a class="main-nav-link" href="#news">News</a>
+            </li>
+            <li>
+              <a class="main-nav-link" href="#publications">Publications</a>
+            </li>
+            <!-- <li>
+              <a class="main-nav-link" href="#blogs">Blogs</a>
+            </li> -->
+            <li>
+              <a class="main-nav-link nav-cta" href="#projects">Projects</a>
+            </li>
+            <li>
+              <a class="main-nav-link nav-cta" href="#supervisors">People</a>
+            </li>
+            <li><a class="main-nav-link nav-cta" href="contactUs.html">Contact</a></li>
+          </ul>
+          <span class="nav-indicator"></span>
+        </nav>
+      </header>
+
+      <!-- Section of Hero -->
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="hero-main--header">
+              <span class="hero-brand-name">ESCAL BME</span>
+              <span class="hero-subtitle">ESCAL Biomedical Engineering Research Group</span>
+              <span class="hero-location">
+                <span class="typewriter-text" data-text="at University of Peradeniya"></span>
+              </span>
+            </h1>
+
+            <p class="hero-description">
+              Pioneering the convergence of medicine, engineering, and technology. We design life-saving medical devices, develop intelligent diagnostic systems, and create next-generation biosignal processing solutions that transform healthcare delivery and improve patient outcomes worldwide.
+            </p>
+
+            <!-- Partnership Logos Section -->
+            <div class="hero-partners">
+              <div class="partners-container">
+                <div class="partner-logo">
+                  <img src="./img/partners/logo-2.png" alt="ESCAL Lab" class="logo-img" />
+                </div>
+                <div class="partner-logo">
+                  <img src="./img/partners/peracomlogo.png" alt="Computer Engineering" class="logo-img" />
+                </div>
+                <div class="partner-logo" style="display: flex; align-items: center; gap: 0.5rem;">
+                  <img src="./img/Logo_BME.png" alt="ESCAL BME" style="height:5rem" class="logo-img"/>
+                  <img src="./img/partners/pera_11.png" alt="University of Peradeniya" class="logo-img"/>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-btn">
+              <a href="#about" class="hero-learn-btn btn--scroll-to"
+                ><span>Exploring more</span
+                ><img
+                  src="./img/icons/arrow_icon.svg"
+                  class="explore-more-icon"
+              /></a>
+              <a href="contactUs.html" class="hero-learn-btn">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    </div>
+    <main>
+      <!-- section of About -->
+      <section class="section-about page" id="about">
+        <div class="container about-text-box">
+          <h2 class="subheading">Transforming Healthcare Through Innovation</h2>
+
+          <p class="about-description">
+            <strong>ESCAL BME - Biomedical Engineering Research Group</strong> is a pioneering research group at the Department of Computer Engineering, University of Peradeniya, where engineering excellence meets medical innovation. We develop transformative healthcare technologies that address critical challenges in diagnosis, treatment, and patient monitoring.
+            <br><br>
+            Our multidisciplinary team specializes in brain-computer interfaces (BCI), AI-driven dental imaging and diagnosis, ECG-based emotion recognition, and near-infrared (NIR) medical devices. We work on projects ranging from non-invasive EEG systems for controlling virtual objects to deep learning models for root canal treatment assessment and oral cancer detection. Our expertise spans biosignal processing (ECG, EEG, sEMG), medical image analysis, and embedded systems development.
+            <br><br>
+            Through collaborations with hospitals, dental schools, and research institutions, we publish in top-tier journals (Nature, IEEE Access, Oral Oncology) and create practical medical solutions including NIR devices for vein visualization and microvascular surgery, GPU-accelerated ECG analysis systems, and AI-powered diagnostic tools that make advanced healthcare technology accessible to clinical practice.
+          </p>
+
+          <div class="about-stats grid grid--3--cols">
+            <div class="stat">
+              <img src="img/about/brain.svg" class="about-icon" />
+              <p class="about-stats-number stat-number">12</p>
+              <p class="icon-desc">Research Projects</p>
+            </div>
+
+            <div class="stat">
+              <img src="img/about/people.svg" class="about-icon" />
+              <p class="about-stats-number stat-number">35+</p>
+              <p class="icon-desc">Biomedical Researchers</p>
+            </div>
+
+            <div class="stat">
+              <img src="img/about/publish.svg" class="about-icon" />
+              <p class="about-stats-number stat-number">10</p>
+              <p class="icon-desc">Peer-Reviewed Publications</p>
+            </div>
+<!-- 
+            <div class="stat">
+              <img src="img/about/circuit.svg" class="about-icon" />
+              <p class="about-stats-number stat-number">5+</p>
+              <p class="icon-desc">Medical Device Prototypes</p>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Section of News -->
+      <section class="section-news page" id="news">
+        <div class="container">
+          <h2 class="subheading">
+            Latest News & Updates
+            <a href="./news.html" class="link-tags"
+              ><img src="./img/icons/link.svg" class="link-icons" alt="Open News" width="48" height="48"/></a>
+          </h2>
+        </div>
+
+        <div class="container main-news" id="news-container">
+          <!-- News will be loaded dynamically -->
+        </div>
+
+        <div class="view-more-news">
+          <a href="./news.html" class="view-more-btn" target="_blank"
+            >View on news <span>&rarr;</span></a
+          >
+        </div>
+      </section>
+
+      <!-- Section Of publications -->
+      <section class="section-publications page" id="publications">
+        <div class="container">
+          <h2 class="subheading">
+            Publications
+            <a href="./publication.html" class="link-tags"
+              ><img src="./img/icons/link.svg" class="link-icons" alt="Open Publications" width="48" height="48"/></a>
+          </h2>
+        </div>
+
+        <div class="container main-publications" id="publication-container">
+          <!-- Publication will be loaded dynamically  -->
+        </div>
+      </section>
+
+      <!-- Section of Blogs -->
+      <section class="section-blogs page" id="blogs" style="display:none;">
+        <div class="container">
+          <h2 class="subheading">
+            Research Insights & Analysis
+            <a href="./blogs.html" class="link-tags"
+              ><img src="./img/icons/link.svg" class="link-icons" alt="Open Blogs" width="48" height="48"/></a>
+          </h2>
+        </div>
+
+        <div class="container blog-grid" id="blog-container">
+          <!-- Blogs will be loaded dynamically -->
+        </div>
+      </section>
+
+      <!-- Section of Projects -->
+      <section class="section-projects page" id="projects">
+        <div class="container">
+          <h2 class="subheading">
+            Research Projects
+            <a href="./project.html" class="link-tags"
+              ><img src="./img/icons/link.svg" class="link-icons" alt="Open Projects" width="48" height="48"/></a>
+          </h2>
+        </div>
+
+        <div class="container grid grid grid--3--cols" id="project-container">
+          <!-- Projects will be loaded dynamically -->
+        </div>
+      </section>
+
+      <!-- Section of People -->
+      <section class="section-supervisors page" id="supervisors">
+        <div class="container">
+          <h2 class="subheading">
+            Meet Our Research Team
+            <a href="./people.html" class="link-tags"
+              ><img src="./img/icons/link.svg" class="link-icons" alt="Open People" width="48" height="48"/></a>
+          </h2>
+        </div>
+
+        <!--supervisors-->
+        <section class="contributors-group" style="margin-bottom: 4.8rem;">
+          <div class="container">
+            <h3 class="inherheader">Supervisors</h3>
+            <div class="main-contributors grid grid--5--cols" id="supervisors-container">
+              <!-- Superviors will be loaded dynamically -->
+            </div>
+          </div>
+        </section>
+
+        <!---team members-->
+        <section class="contributors-group team-member-card">
+          <div class="container" style="margin-bottom: 4.8rem;">
+            <h3 class="inherheader">Graduate Researchers</h3>
+            <div
+              class="main-contributors grid grid--5--cols"
+              id="graduate-container"
+            >
+              <!-- Graduate researchers will be loaded dynamically -->
+            </div>
+          </div>
+          
+          <div class="container" style="margin-bottom: 4.8rem;">
+            <h3 class="inherheader">Undergraduate Researchers</h3>
+            <div
+              class="main-contributors grid grid--5--cols"
+              id="team-container"
+            >
+              <!-- Undergraduate researchers will be loaded dynamically -->
+            </div>
+          </div>
+          
+          <div class="container" style="margin-bottom: 4.8rem;">
+            <h3 class="inherheader">Alumni Researchers</h3>
+            <div
+              class="main-contributors grid grid--5--cols"
+              id="alumni-container"
+            >
+              <!-- Alumni researchers will be loaded dynamically -->
+            </div>
+          </div>
+        </section>
+        
+      </section>
+    </main>
+
+    <!-- Section of footer -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-1">
+          <a href="#" class="footer-logo" style="display: flex; align-items:center;">
+            <img src="./img/Logo_BME.png" alt="ESCAL BME Logo" class="escal" />
+            <img src="./img/partners/pera_11.png" alt="" style="height: 6rem;">
+          </a>
+
+          <p class="footer-desc">
+            Advancing the frontiers of biomedical engineering through
+            innovative research and collaboration
+          </p>
+
+          <ul class="social-links" style="display:none;">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Get In Touch</p>
+          <address class="contacts">
+            <p class="address">
+              <img src="./img/footer/location.png" alt="location" class="contact-icon"/>
+              Department of Computer Engineering, University of Peradeniya, Sri Lanka.
+            </p>
+            <p>
+              <img src="./img/footer/phone-call.png" alt="location" class="contact-icon"/>
+              <a class="footer-link" href="tel:415-201-6370">+94 71 XXX XXXX</a><br />
+              <img src="./img/footer/mail.png" alt="location" class="contact-icon"/>
+              <a class="footer-link" href="mailto:perabme@eng.pdn.ac.lk"
+                >perabme@eng.pdn.ac.lk</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Quick Links</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#news">News</a></li>
+            <li><a class="footer-link" href="#publications">Publication</a></li>
+            <li><a class="footer-link" href="#blogs">Blog</a></li>
+            <li><a class="footer-link" href="#projects">Projects</a></li>
+            <li><a class="footer-link" href="#supervisors">People</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Other Websites</p>
+          <ul class="footer-nav">
+            <li>
+              <a
+                class="footer-link"
+                href="https://escal.ce.pdn.ac.lk"
+                target="_blank"
+                >ESCAL</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.ce.pdn.ac.lk"
+                target="_blank"
+                >Peracom</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Research Areas</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link">Wearable Health Monitoring</a></li>
+            <li>
+              <a class="footer-link">Biosignal Processing & AI</a>
+            </li>
+            <li>
+              <a class="footer-link">Point-of-Care Diagnostics</a>
+            </li>
+            <li><a class="footer-link">Medical Image Analysis</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-line">
+        <p class="copyright">
+          Copyright &copy; ESCAL BME - Biomedical Research Group. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script src="./js/nav.js"></script>
+  <script src="./js/typewriter.js"></script>
+  <script type="module" src="./js/reveal.js"></script>
+  <script type="module" src="./js/neuroAPI.js"></script>
+    <script type="module">
+      document.addEventListener("DOMContentLoaded", function () {
+        try {
+          window.NEURO_API.loadNews("#news-container");
+          window.NEURO_API.loadPublications("#publication-container");
+          window.NEURO_API.loadBlogs("#blog-container");
+          window.NEURO_API.loadProjects("#project-container");
+          window.NEURO_API.loadPeoples(
+            "#team-container",
+            "#supervisors-container",
+            "#graduate-container",
+            "#alumni-container"
+          );
+        } catch (e) {
+          console.error("Failed to initialize API loaders", e);
+        }
+      });
+    </script>
+  </body>
+</html>
